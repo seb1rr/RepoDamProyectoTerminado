@@ -32,7 +32,7 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "Bienvenido, ${user?.displayName ?? 'Usuario'} 👋",
+              "Bienvenido, ${user?.displayName ?? 'Usuario'} ",
               style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               textAlign: TextAlign.center,
             ),
