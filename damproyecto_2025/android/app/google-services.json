@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "976554159520",
+    "project_id": "proyectodam-fc7cd",
+    "storage_bucket": "proyectodam-fc7cd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976554159520:android:370573640eeee6b892c8c5",
+        "android_client_info": {
+          "package_name": "com.example.damproyecto_2025"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976554159520-g7o5lh2e1nnq9vdbkoaanj8rr80tkhfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.damproyecto_2025",
+            "certificate_hash": "5a391a8f38087c5824789c156a7bd82638b4f423"
+          }
+        },
+        {
+          "client_id": "976554159520-u5oeqh4tq0l04tj5gi1vt5fpqjl920o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSYsULtjZd75xhTH8bh_Q6xm6dxdmjBSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976554159520-u5oeqh4tq0l04tj5gi1vt5fpqjl920o8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
