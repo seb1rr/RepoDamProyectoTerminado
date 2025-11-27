@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Eventos App"),
+        title: const Text("Proyecto DAM"),
         actions: [
           IconButton(
             icon: const Icon(Icons.logout),
