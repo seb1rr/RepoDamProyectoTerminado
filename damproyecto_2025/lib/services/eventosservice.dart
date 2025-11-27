@@ -8,13 +8,7 @@ class EventosService {
   }
 
   Future<void> crearEvento(String titulo, Timestamp fechaHora, String lugar, String categoria, String autor) async {
-    await _db.collection("eventos").add({
-      "titulo": titulo,
-      "fechaHora": fechaHora, // ahora sí es Timestamp
-      "lugar": lugar,
-      "categoria": categoria,
-      "autor": autor,
-    });
+    await _db.collection("eventos").add({"titulo": titulo, "fechaHora": fechaHora, "lugar": lugar, "categoria": categoria, "autor": autor});
   }
 
   Future<void> borrarEvento(String id) async {

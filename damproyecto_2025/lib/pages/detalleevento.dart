@@ -3,7 +3,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:intl/intl.dart';
 import 'package:damproyecto_2025/utils/constantes.dart';
 
-// Pantalla que muestra el detalle de un evento
 class DetalleEventoPage extends StatelessWidget {
   // ID del evento que se quiere mostrar
   final String id;
@@ -13,7 +12,6 @@ class DetalleEventoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // Barra superior con color personalizado
       appBar: AppBar(title: const Text("Detalle del Evento"), backgroundColor: kColorMorado, foregroundColor: Colors.white),
 
       // Se obtiene el evento desde Firestore usando su ID
@@ -21,7 +19,6 @@ class DetalleEventoPage extends StatelessWidget {
         future: FirebaseFirestore.instance.collection("eventos").doc(id).get(),
 
         builder: (context, snapshot) {
-          // Mientras se cargan los datos se muestra un loader
           if (!snapshot.hasData) {
             return const Center(child: CircularProgressIndicator());
           }
